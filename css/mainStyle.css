@@ -1,0 +1,25 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#renderingCanvas{
+  position: absolute;
+  z-index: 2;
+  background: transparent;
+  width: 100%;
+  height: 100%;
+  filter: blur(.5px);
+  opacity: 1;
+  overflow: hidden;
+  touch-action: none;
+}
+#backgroundCanvas{
+  position: absolute;
+  z-index: 1;
+  background: white;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  touch-action: none;
+}
